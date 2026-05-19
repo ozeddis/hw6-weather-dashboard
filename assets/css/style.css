@@ -1,0 +1,44 @@
+::selection {
+	background-color: purple;
+	color: white;
+}
+
+header {
+	display: flex;
+	min-height: 10vh;
+	background: radial-gradient(purple, black);
+	color: white;
+	border-bottom: 10px solid purple;
+}
+
+header h1 {
+	margin: auto;
+	font-weight: bold;
+}
+
+main {
+	min-height: 80vh;
+	overflow-y: scroll;
+}
+
+footer {
+	display: flex;
+	min-height: 10vh;
+	border-top: 10px solid purple;
+	background-color: black;
+	color: white;
+}
+
+footer p {
+	margin: auto;
+}
+
+/* Bootstrap Overrides */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	background-color: purple;
+	color: white;
+	border: none;
+}
